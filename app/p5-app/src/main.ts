@@ -7,8 +7,12 @@ const sketch = (p: p5) => {
   }
 
   p.draw = () => {
-    p.background(220)
-    p.ellipse(50, 50, 80, 80)
+    if (p.mouseIsPressed) {
+      p.fill(0)
+    } else {
+      p.fill(255)
+    }
+    p.ellipse(p.mouseX, p.mouseY, 80, 80)
   }
 }
 
