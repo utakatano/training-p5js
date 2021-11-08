@@ -1,18 +1,14 @@
 import './style.css'
 import p5 from 'p5'
+import {setup, draw} from './examples/width-and-height'
 
 const sketch = (p: p5) => {
   p.setup = () => {
-    p.createCanvas(400, 400)
+    setup(p)
   }
 
   p.draw = () => {
-    if (p.mouseIsPressed) {
-      p.fill(0)
-    } else {
-      p.fill(255)
-    }
-    p.ellipse(p.mouseX, p.mouseY, 80, 80)
+    draw(p)
   }
 }
 
