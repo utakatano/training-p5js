@@ -1,6 +1,6 @@
 import './style.css'
 import p5 from 'p5'
-import {setup, draw} from './examples/setup-and-draw'
+import { setup, draw } from './examples/no-loop'
 
 const sketch = (p: p5) => {
   p.setup = () => {
