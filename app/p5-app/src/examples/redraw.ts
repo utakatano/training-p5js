@@ -18,3 +18,6 @@ export const draw = (p: p5) => {
   p.line(0, y, p.width, y)
 }
 
+export const mousePressed = (p: p5) => {
+  p.redraw()
+}
