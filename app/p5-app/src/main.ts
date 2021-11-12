@@ -1,6 +1,6 @@
 import './style.css'
 import p5 from 'p5'
-import { setup, draw } from './examples/no-loop'
+import { setup, draw } from './examples/functions'
 
 const sketch = (p: p5) => {
   p.setup = () => {
@@ -10,6 +10,10 @@ const sketch = (p: p5) => {
   p.draw = () => {
     draw(p)
   }
+
+  // p.mousePressed = () => {
+  //   mousePressed(p)
+  // }
 }
 
 
