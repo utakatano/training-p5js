@@ -1,6 +1,6 @@
 import './style.css'
 import p5 from 'p5'
-import { setup } from './examples/points-and-lines'
+import { setup } from './examples/form-shape-primitives'
 
 const sketch = (p: p5) => {
   p.setup = () => {
