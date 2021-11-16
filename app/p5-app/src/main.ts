@@ -1,15 +1,15 @@
 import './style.css'
 import p5 from 'p5'
-import { setup } from './examples/form-shape-primitives'
+import { setup, draw } from './examples/pie-chart'
 
 const sketch = (p: p5) => {
   p.setup = () => {
     setup(p)
   }
 
-  // p.draw = () => {
-  //   draw(p)
-  // }
+  p.draw = () => {
+    draw(p)
+  }
 
   // p.mousePressed = () => {
   //   mousePressed(p)
