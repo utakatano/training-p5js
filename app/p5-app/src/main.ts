@@ -1,6 +1,6 @@
 import './style.css'
 import p5 from 'p5'
-import { setup, draw } from './examples/pie-chart'
+import { setup, draw } from './examples/regular-polygon'
 
 const sketch = (p: p5) => {
   p.setup = () => {
