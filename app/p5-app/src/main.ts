@@ -1,6 +1,6 @@
 import './style.css'
 import p5 from 'p5'
-import { setup, draw } from './examples/triangle-strip'
+import { setup, draw } from './examples/3d-primitives'
 
 const sketch = (p: p5) => {
   p.setup = () => {
