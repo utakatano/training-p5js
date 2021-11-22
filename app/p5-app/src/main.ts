@@ -1,6 +1,6 @@
 import './style.css'
 import p5 from 'p5'
-import { setup } from './examples/trig-wheels-and-pie-chart'
+import { setup } from './examples/variables'
 
 const sketch = (p: p5) => {
   p.setup = () => {
