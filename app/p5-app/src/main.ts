@@ -1,6 +1,6 @@
 import './style.css'
 import p5 from 'p5'
-import { setup } from './examples/variables'
+import { setup } from './examples/true-and-false'
 
 const sketch = (p: p5) => {
   p.setup = () => {
