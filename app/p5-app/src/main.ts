@@ -1,15 +1,15 @@
 import './style.css'
 import p5 from 'p5'
-import { setup } from './examples/true-and-false'
+import { draw, setup } from './examples/variable-scope'
 
 const sketch = (p: p5) => {
   p.setup = () => {
     setup(p)
   }
 
-  // p.draw = () => {
-  //   draw(p)
-  // }
+  p.draw = () => {
+    draw(p)
+  }
 
   // p.mousePressed = () => {
   //   mousePressed(p)
