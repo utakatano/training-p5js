@@ -1,6 +1,6 @@
 import './style.css'
 import p5 from 'p5'
-import { draw, setup } from './examples/numbers'
+import { draw, setup } from './examples/array'
 
 const sketch = (p: p5) => {
   p.setup = () => {
