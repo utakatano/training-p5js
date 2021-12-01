@@ -41,4 +41,17 @@ export const setup = (p: p5) => {
     }
     y += 28
   }
+
+  console.log('\n *** Fish ages in 2D ***')
+  const schools: number[][] = []
+  for (let t = 0; t < 4; t++) {
+    schools[t] = []
+    console.log('schools[t]?', t, schools[t])
+
+    for (let a = 0; a < 10; a++) {
+      const rnd = p.round(p.random(1, 5))
+      schools[t].push(rnd)
+    }
+  }
+  console.log(schools)
 }
