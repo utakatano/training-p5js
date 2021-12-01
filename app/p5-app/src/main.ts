@@ -1,6 +1,6 @@
 import './style.css'
 import p5 from 'p5'
-import { setup } from './examples/walk-over-2d-array'
+import { setup } from './examples/control/iteration'
 
 const sketch = (p: p5) => {
   p.setup = () => {
