@@ -1,6 +1,6 @@
 import './style.css'
 import p5 from 'p5'
-import { setup, draw } from './examples/control/embedded-iteration'
+import { setup, draw } from './examples/control/conditionals-1'
 
 const sketch = (p: p5) => {
   p.setup = () => {
