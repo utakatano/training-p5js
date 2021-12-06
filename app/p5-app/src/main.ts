@@ -1,19 +1,19 @@
 import './style.css'
 import p5 from 'p5'
-import { setup } from './examples/control/logical-operators'
+import { setup, draw, mousePressed } from './examples/control/logical-operators-2'
 
 const sketch = (p: p5) => {
   p.setup = () => {
     setup(p)
   }
 
-  // p.draw = () => {
-  //   draw(p)
-  // }
+  p.draw = () => {
+    draw(p)
+  }
 
-  // p.mousePressed = () => {
-  //   mousePressed(p)
-  // }
+  p.mousePressed = () => {
+    mousePressed()
+  }
 }
 
 
