@@ -1,6 +1,6 @@
 import './style.css'
 import p5 from 'p5'
-import { setup, draw, mousePressed } from './examples/control/logical-operators-2'
+import { setup, draw } from './examples/control/conditional-shapes'
 
 const sketch = (p: p5) => {
   p.setup = () => {
@@ -11,9 +11,9 @@ const sketch = (p: p5) => {
     draw(p)
   }
 
-  p.mousePressed = () => {
-    mousePressed()
-  }
+  // p.mousePressed = () => {
+  //   mousePressed()
+  // }
 }
 
 
