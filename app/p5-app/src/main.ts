@@ -1,6 +1,6 @@
 import './style.css'
 import p5 from 'p5'
-import { setup, draw } from './examples/control/conditional-shapes'
+import { setup, draw } from './examples/image/load-display-image'
 
 const sketch = (p: p5) => {
   p.setup = () => {
