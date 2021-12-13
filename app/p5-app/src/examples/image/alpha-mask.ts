@@ -16,4 +16,6 @@ export const setup = (p: p5) => {
 
 export const draw = (p: p5) => {
   p.background(0, 102, 153)
+  p.image(img, p.width / 2, p.height / 2)
+  p.image(img, p.mouseX, p.mouseY)
 }
