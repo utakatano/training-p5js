@@ -1,6 +1,6 @@
 import './style.css'
 import p5 from 'p5'
-import { preload, setup, draw } from './examples/image/pointillism'
+import { preload, setup, mouseDragged } from './examples/image/copy-method'
 
 const sketch = (p: p5) => {
   p.preload = () => {
@@ -11,13 +11,17 @@ const sketch = (p: p5) => {
     setup(p)
   }
 
-  p.draw = () => {
-    draw(p)
-  }
+  // p.draw = () => {
+  //   draw(p)
+  // }
 
   // p.mousePressed = () => {
   //   mousePressed()
   // }
+
+  p.mouseDragged = () => {
+    mouseDragged(p)
+  }
 }
 
 
