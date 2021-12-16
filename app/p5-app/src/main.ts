@@ -1,6 +1,6 @@
 import './style.css'
 import p5 from 'p5'
-import { preload, setup, mouseDragged } from './examples/image/copy-method'
+import { preload, setup, draw } from './examples/image/blur'
 
 const sketch = (p: p5) => {
   p.preload = () => {
@@ -11,17 +11,17 @@ const sketch = (p: p5) => {
     setup(p)
   }
 
-  // p.draw = () => {
-  //   draw(p)
-  // }
+  p.draw = () => {
+    draw(p)
+  }
 
   // p.mousePressed = () => {
   //   mousePressed()
   // }
 
-  p.mouseDragged = () => {
-    mouseDragged(p)
-  }
+  // p.mouseDragged = () => {
+  //   mouseDragged(p)
+  // }
 }
 
 
