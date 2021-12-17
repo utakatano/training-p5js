@@ -1,6 +1,6 @@
 import './style.css'
 import p5 from 'p5'
-import { preload, setup, draw } from './examples/image/blur'
+import { preload, setup, draw } from './examples/image/edge-detection'
 
 const sketch = (p: p5) => {
   p.preload = () => {
