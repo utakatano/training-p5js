@@ -1,11 +1,11 @@
 import './style.css'
 import p5 from 'p5'
-import { preload, setup, draw } from './examples/image/brightness'
+import { setup, draw } from './examples/color/saturation'
 
 const sketch = (p: p5) => {
-  p.preload = () => {
-    preload(p)
-  }
+  // p.preload = () => {
+  //   preload(p)
+  // }
 
   p.setup = () => {
     setup(p)
