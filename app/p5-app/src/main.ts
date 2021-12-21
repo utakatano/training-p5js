@@ -1,6 +1,6 @@
 import './style.css'
 import p5 from 'p5'
-import { setup, draw } from './examples/color/saturation'
+import { setup } from './examples/color/color-variables'
 
 const sketch = (p: p5) => {
   // p.preload = () => {
@@ -11,9 +11,9 @@ const sketch = (p: p5) => {
     setup(p)
   }
 
-  p.draw = () => {
-    draw(p)
-  }
+  // p.draw = () => {
+  //   draw(p)
+  // }
 
   // p.mousePressed = () => {
   //   mousePressed()
