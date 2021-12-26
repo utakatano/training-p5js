@@ -1,6 +1,6 @@
 import './style.css'
 import p5 from 'p5'
-import { setup, draw } from './examples/color/linear-gradient'
+import { setup, draw } from './examples/color/radial-gradient'
 
 const sketch = (p: p5) => {
   // p.preload = () => {
