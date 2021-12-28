@@ -29,5 +29,21 @@ export const draw = (p: p5) => {
       p.random(140, 380), p.random(p.height),
       p.random(140, 380), p.random(p.height),
     )
+
+    p.fill(c2)
+    p.quad(
+      p.random(320, 580), p.random(p.height),
+      p.random(320, 580), p.random(p.height),
+      p.random(320, 580), p.random(p.height),
+      p.random(320, 580), p.random(p.height),
+    )
+
+    p.fill(to)
+    p.quad(
+      p.random(500, 760), p.random(p.height),
+      p.random(500, 760), p.random(p.height),
+      p.random(500, 760), p.random(p.height),
+      p.random(500, 760), p.random(p.height),
+    )
   }
 }
