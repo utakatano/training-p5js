@@ -1,6 +1,6 @@
 import './style.css'
 import p5 from 'p5'
-import { setup, draw } from './examples/math/increment-decrement'
+import { setup, draw } from './examples/math/distance-1d'
 
 const sketch = (p: p5) => {
   // p.preload = () => {
