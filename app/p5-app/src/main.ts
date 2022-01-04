@@ -1,6 +1,6 @@
 import './style.css'
 import p5 from 'p5'
-import { setup, draw } from './examples/math/sine-wave'
+import { setup, draw } from './examples/math/additive-wave'
 
 const sketch = (p: p5) => {
   // p.preload = () => {
