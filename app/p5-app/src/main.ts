@@ -1,6 +1,6 @@
 import './style.css'
 import p5 from 'p5'
-import { setup, draw } from './examples/math/arctangent'
+import { setup, draw } from './examples/math/linear-interpolation'
 
 const sketch = (p: p5) => {
   // p.preload = () => {
