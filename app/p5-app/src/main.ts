@@ -1,6 +1,6 @@
 import './style.css'
 import p5 from 'p5'
-import { setup, draw } from './examples/math/random-gaussian'
+import { setup, draw } from './examples/math/noise3d'
 
 const sketch = (p: p5) => {
   // p.preload = () => {
