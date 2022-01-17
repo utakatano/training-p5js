@@ -1,6 +1,6 @@
 import './style.css'
 import p5 from 'p5'
-import { setup, draw } from './examples/math/map'
+import { setup, draw } from './examples/math/graphing-2d-equations'
 
 const sketch = (p: p5) => {
   // p.preload = () => {
