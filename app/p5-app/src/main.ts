@@ -1,6 +1,6 @@
 import './style.css'
 import p5 from 'p5'
-import { setup, draw } from './examples/math/parametric-equations'
+import { setup, draw } from './examples/objects/objects'
 
 const sketch = (p: p5) => {
   // p.preload = () => {
