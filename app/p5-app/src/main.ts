@@ -1,6 +1,6 @@
 import './style.css'
 import p5 from 'p5'
-import { setup, draw } from './examples/objects/objects2'
+import { setup, draw } from './examples/transform/translate'
 
 const sketch = (p: p5) => {
   // p.preload = () => {
