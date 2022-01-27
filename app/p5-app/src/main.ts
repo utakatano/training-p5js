@@ -1,6 +1,6 @@
 import './style.css'
 import p5 from 'p5'
-import { setup, draw } from './examples/simulate/forces'
+import { setup, draw } from './examples/simulate/particle-system'
 
 const sketch = (p: p5) => {
   // p.preload = () => {
