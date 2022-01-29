@@ -1,6 +1,6 @@
 import './style.css'
 import p5 from 'p5'
-import { setup, draw } from './examples/simulate/particle-system'
+import { setup, draw } from './examples/simulate/flocking'
 
 const sketch = (p: p5) => {
   // p.preload = () => {
