@@ -1,6 +1,6 @@
 import './style.css'
 import p5 from 'p5'
-import { setup, draw } from './examples/simulate/wolfram-ca'
+import { setup, draw, mousePressed } from './examples/simulate/game-of-life'
 
 const sketch = (p: p5) => {
   // p.preload = () => {
@@ -15,9 +15,9 @@ const sketch = (p: p5) => {
     draw(p)
   }
 
-  // p.mousePressed = () => {
-  //   mousePressed()
-  // }
+  p.mousePressed = () => {
+    mousePressed(p)
+  }
 
   // p.mouseDragged = () => {
   //   mouseDragged(p)
