@@ -1,6 +1,6 @@
 import p5 from "p5";
 
-class Particle {
+export class Particle {
   p: p5
   acceleration: p5.Vector
   velocity: p5.Vector
