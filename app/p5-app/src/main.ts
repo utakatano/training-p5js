@@ -1,6 +1,6 @@
 import './style.css'
 import p5 from 'p5'
-import { setup, draw, mousePressed } from './examples/simulate/game-of-life'
+import { setup, draw, mousePressed } from './examples/simulate/multiple-particle-systems'
 
 const sketch = (p: p5) => {
   // p.preload = () => {
