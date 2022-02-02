@@ -1,6 +1,6 @@
 import './style.css'
 import p5 from 'p5'
-import { setup, draw, mousePressed } from './examples/simulate/multiple-particle-systems'
+import { setup, draw, keyReleased } from './examples/simulate/spirograph'
 
 const sketch = (p: p5) => {
   // p.preload = () => {
@@ -15,8 +15,12 @@ const sketch = (p: p5) => {
     draw(p)
   }
 
-  p.mousePressed = () => {
-    mousePressed(p)
+  // p.mousePressed = () => {
+  //   mousePressed(p)
+  // }
+
+  p.keyReleased = () => {
+    keyReleased(p)
   }
 
   // p.mouseDragged = () => {
