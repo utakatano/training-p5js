@@ -1,6 +1,6 @@
 import './style.css'
 import p5 from 'p5'
-import { setup, draw, keyReleased } from './examples/simulate/spirograph'
+import { setup, draw } from './examples/simulate/l-systems'
 
 const sketch = (p: p5) => {
   // p.preload = () => {
@@ -19,9 +19,9 @@ const sketch = (p: p5) => {
   //   mousePressed(p)
   // }
 
-  p.keyReleased = () => {
-    keyReleased(p)
-  }
+  // p.keyReleased = () => {
+  //   keyReleased(p)
+  // }
 
   // p.mouseDragged = () => {
   //   mouseDragged(p)
