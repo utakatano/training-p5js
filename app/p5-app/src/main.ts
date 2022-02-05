@@ -1,6 +1,6 @@
 import './style.css'
 import p5 from 'p5'
-import { setup, draw, mousePressed, mouseReleased } from './examples/simulate/spring'
+import { setup, draw, mousePressed, mouseReleased } from './examples/simulate/springs'
 
 const sketch = (p: p5) => {
   // p.preload = () => {
