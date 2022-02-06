@@ -1,6 +1,6 @@
 import './style.css'
 import p5 from 'p5'
-import { setup, draw, mousePressed, mouseReleased } from './examples/simulate/springs'
+import { setup, draw } from './examples/simulate/soft-body'
 
 const sketch = (p: p5) => {
   // p.preload = () => {
@@ -15,13 +15,13 @@ const sketch = (p: p5) => {
     draw(p)
   }
 
-  p.mousePressed = () => {
-    mousePressed()
-  }
+  // p.mousePressed = () => {
+  //   mousePressed()
+  // }
 
-  p.mouseReleased = () => {
-    mouseReleased()
-  }
+  // p.mouseReleased = () => {
+  //   mouseReleased()
+  // }
 
   // p.keyReleased = () => {
   //   keyReleased(p)
