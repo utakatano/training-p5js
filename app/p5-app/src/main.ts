@@ -1,6 +1,6 @@
 import './style.css'
 import p5 from 'p5'
-import { setup, draw } from './examples/simulate/soft-body'
+import { setup, draw } from './examples/simulate/brownian-motion'
 
 const sketch = (p: p5) => {
   // p.preload = () => {
