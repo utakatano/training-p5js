@@ -12,6 +12,20 @@ export const setup = (p: p5) => {
   ps = new ParticleSystem(0, p, p.createVector(p.width/ 2, p.height - 60), particleTexture)
 }
 
+const drawVector = (p: p5, v: p5.Vector, loc: p5.Vector, scale: number) => {
+  p.push()
+  const arrowSize = 4
+  p.translate(loc.x, loc.y)
+  p.stroke(255)
+  p.rotate(v.heading())
+
+  const len = v.mag() * scale
+  p.line(0, 0, len, 0)
+  p.line(len, 0, len - arrowSize, +arrowSize / 2)
+  p.line(len, 0, len - arrowSize, -arrowSize / 2)
+  p.pop()
+}
+
 export const draw = (p: p5) => {
   p.background(0)
   const dx = p.map(p.mouseX, 0, p.width, -0.2, 0.2)
@@ -23,7 +37,7 @@ export const draw = (p: p5) => {
     ps.addParticle()
   }
 
-  // TODO
+  drawVector(p, wind, p.createVector(p.width / 2, 50, 0), 500)
 }
 
 class Particle {
